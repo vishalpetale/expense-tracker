@@ -1,0 +1,56 @@
+.expense-from {
+  transition: all 1s ease;
+}
+.expense-form-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: left;
+
+  margin-bottom: 1rem;
+}
+.expense-form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.expense-form-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 25rem;
+  max-width: 90%;
+  outline: none;
+}
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  border-radius: 12px;
+}
+.expense-control-btn {
+  border: 1px solid #510674;
+  background-color: #510674;
+  color: #fff;
+
+  margin: 1rem 0.5rem 0 auto;
+}
+.cancel {
+  font-size: 1.2rem;
+  color: #333;
+}
+.btn-cancel {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}

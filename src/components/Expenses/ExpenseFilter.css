@@ -1,0 +1,36 @@
+.expense-filter {
+  color: #eee;
+  padding: 0 1.5rem;
+  margin-bottom: 1rem;
+}
+.expense-filter-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expense-filter-control label {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+.expense-filter-control select {
+  font: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  padding: 0.75rem 2.5rem;
+
+  background-color: #ddd;
+
+  border: 1px solid gray;
+  border-radius: 10px;
+  line-height: 1.6;
+  outline: none;
+}
+.expense-filter-control select:hover {
+  background-color: #eee;
+}
+.expense-filter-control select option {
+  font-size: inherit;
+}
